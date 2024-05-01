@@ -4,7 +4,7 @@ export default function Header() {
     return (
         <header className="navbar w-screen text-tertiary flex items-center justify-center mt-7 lg:mt-10">
         <div className="w-screen flex items-center justify-around">
-          <img src={Linker.Logo.white.path} alt={Linker.Logo.white.component} width={50} />
+          <img src={Linker.Logo.green.path} alt={Linker.Logo.green.component} width={50} />
             <nav className=''>
               <ul className='hidden sm:justify-center sm:text-[15px] md:text-[17px] md:flex md:space-x-[5vw] font-bold'>
                 <li><a className='hover:underline hover:text-quaternary' href="/">Home</a></li>
