@@ -7,7 +7,7 @@ function Home() {
   return (
     <>
         <Header />
-        <div className="text-tertiary flex flex-col md:flex-row space-y-[5rem] max-screen items-center justify-evenly md:space-y-0 md:space-x-[5rem] mt-20 px-5 md:px-12 lg:px-20">
+        <div className="text-tertiary flex flex-col md:flex-row space-y-[5rem] max-screen items-center justify-evenly md:space-y-0 md:space-x-[5rem] mt-20 md:mt-50 px-5 md:px-12 lg:px-20">
           <article className='w-[20rem] lg:w-[35rem] flex flex-col items-center md:items-start'>
             <h1 className='text-[1.5rem] md:text-[1.9rem] lg:text-[2.7rem] font-bold flex justify-center md:items-start md:text-left'>Kidsakorn Nuallaoong</h1>
             <p className='flex whitespace-pre-line text-center text-[12px] w-[20rem] md:w-[15rem] lg:w-fit md:text-[12px] lg:text-[20px] md:text-left mt-[10px]'>Hello welcome to my web prefile, and here I proud to present about my profile, activity, research, competition or etc. Enjoy with my profile </p>
