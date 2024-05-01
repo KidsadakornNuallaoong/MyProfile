@@ -25,7 +25,7 @@ jobs:
         run: bun init
 
       - name: Build project
-        run: bun run build
+        run: bun run /my-profile/build
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v2
