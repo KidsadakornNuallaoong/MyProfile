@@ -1,4 +1,3 @@
-import './App.css'
 import React from 'react'
 const Home = React.lazy(() => import('./pages/Home'))
 const Profile = React.lazy(() => import('./pages/Profile'))
