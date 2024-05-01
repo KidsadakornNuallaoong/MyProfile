@@ -1,6 +1,7 @@
 import logoWhite from './assets/logoW.svg'
 import logoGreen from './assets/logoW.svg'
 import me from './assets/me.jpg'
+import noPage from './assets/404.svg'
 
 const Linker = {
     Logo : {
@@ -16,6 +17,10 @@ const Linker = {
     Me: {
         component: 'Me',
         path: me
+    },
+    NoPage: {
+        component: 'NoPage',
+        path: noPage
     }
 };
 

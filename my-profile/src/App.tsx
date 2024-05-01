@@ -4,6 +4,7 @@ const Profile = React.lazy(() => import('./pages/Profile'))
 const Project = React.lazy(() => import('./pages/Project'))
 const Service = React.lazy(() => import('./pages/Service'))
 const Research = React.lazy(() => import('./pages/Research'))
+const NoPage = React.lazy(() => import('./pages/NoPage'))
 
 import {
   BrowserRouter as Router,
@@ -22,6 +23,7 @@ function App() {
           <Route path="/project" element={<Project />} />
           <Route path="/Service" element={<Service />} />
           <Route path="/research" element={<Research />} />
+          <Route path="*" element={<NoPage />} />
         </Routes>
       </Router>
     </>
