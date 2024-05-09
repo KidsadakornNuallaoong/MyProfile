@@ -7,6 +7,7 @@ function Home() {
   return (
     <>
         <Header />
+        {/* // * Section 1 */}
         <div className="text-tertiary flex flex-col md:flex-row space-y-[5rem] max-screen items-center justify-evenly md:space-y-0 md:space-x-[5rem] mt-20 md:mt-[10vh] 2xl:mt-[16vh] px-5 md:px-12 lg:px-20">
           <article className='w-[20rem] lg:w-[35rem] flex flex-col items-center md:items-start'>
             <h1 className='text-[1.5rem] md:text-[1.9rem] lg:text-[2.7rem] font-bold flex justify-center md:items-start md:text-left'>Kidsakorn Nuallaoong</h1>
@@ -20,6 +21,16 @@ function Home() {
             <img src={Linker.Me.path} alt={Linker.Me.component} className='w-[120px] sm:w-[135px] md:w-[100px] lg:w-[180px] rounded-[100%] mt-[15%] md:mt-[25%]'/>
           </div>
         </div>
+
+        {/* // * Section 2 */}
+        <div className="w-[100vw] h-[900px] rounded-[25px] flex justify-self-center justify-center items-center my-20">
+          <div className="w-[80vw] h-[100vh] md:h-[80vh] bg-secondary rounded-[25px] text-tertiary flex justify-center items-center space-x-[100px]">
+              <div className="card-1 w-[500px] h-[589px] bg-primary rounded-[20px] border-[5px] border-secondary"></div>
+              <div className="card-2 w-[500px] h-[589px] bg-primary rounded-[20px] border-[5px] border-secondary"></div>
+          </div>    
+        </div>
+
+        {/* // * Section 3 */}
     </>
   )
 }
