@@ -11,7 +11,7 @@ export default function Navbar() {
                 <li><a className='hover:underline hover:text-quaternary' href="/profile">Profile</a></li>
                 <li><a className='hover:underline hover:text-quaternary' href="/project">Project</a></li>
                 <li><a className='hover:underline hover:text-quaternary' href="/blog">blog</a></li>
-                <li><a className='hover:underline hover:text-quaternary' href="/researc">Research</a></li>
+                <li><a className='hover:underline hover:text-quaternary' href="/research">Research</a></li>
               </ul>
             </nav>
         </div>
