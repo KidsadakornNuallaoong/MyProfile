@@ -1,13 +1,15 @@
 import React from 'react'
-const Header = React.lazy(() => import('../components/header'))
+const Navbar = React.lazy(() => import('../components/Navbar'))
 
 export default function Profile() {
   return (
-    <> 
-      <Header />
-      <div className="container text-tertiary">
-        <h1>Research</h1>
-        <p>Welcome to my research!</p>
+    <>
+      <Navbar />
+      <div className="display flex items-center justify-center w-screen bg-primary">
+        <div className="container text-tertiary flex flex-col items-center justify-center">
+          <h1>Research</h1>
+          <p>Welcome to my research!</p>
+        </div>
       </div>
     </>
   )

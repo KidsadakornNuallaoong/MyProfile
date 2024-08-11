@@ -7,8 +7,8 @@ export default function Profile() {
       <Navbar />
       <div className="display flex items-center justify-center w-screen bg-primary">
         <div className="container text-tertiary flex flex-col items-center justify-center">
-          <h1>Project</h1>
-          <p>Welcome to my project!</p>
+          <h1>Service</h1>
+          <p>Welcome to my Service!</p>
         </div>
       </div>
     </>

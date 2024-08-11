@@ -1,12 +1,12 @@
-import React from 'react'
-const Header = React.lazy(() => import('../components/header'))
 import Linker from '../Linker'
+import React from 'react'
+const Navbar = React.lazy(() => import('../components/Navbar'))
 
 function Home() {
 
   return (
     <>
-        <Header />
+      <Navbar />
         {/* // * Section 1 */}
         <div className="text-tertiary flex flex-col md:flex-row space-y-[5rem] max-screen items-center justify-evenly md:space-y-0 md:space-x-[5rem] mt-20 md:mt-[10vh] 2xl:mt-[16vh] px-5 md:px-12 lg:px-20">
           <article className='w-[20rem] lg:w-[35rem] flex flex-col items-center md:items-start'>
