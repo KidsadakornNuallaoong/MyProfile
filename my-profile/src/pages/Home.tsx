@@ -10,7 +10,7 @@ function Home() {
         {/* // * Section 1 */}
         <div className="text-tertiary flex flex-col md:flex-row space-y-[5rem] max-screen items-center justify-evenly md:space-y-0 md:space-x-[5rem] mt-20 md:mt-[10vh] 2xl:mt-[16vh] px-5 md:px-12 lg:px-20">
           <article className='w-[20rem] lg:w-[35rem] flex flex-col items-center md:items-start'>
-            <h1 className='text-[1.5rem] md:text-[1.9rem] lg:text-[2.7rem] font-bold flex justify-center md:items-start md:text-left'>Kidsakorn Nuallaoong</h1>
+            <h1 className='text-[1.5rem] md:text-[1.9rem] lg:text-[2.7rem] font-bold flex justify-center md:items-start md:text-left'>Kidsadakorn Nuallaoong</h1>
             <p className='flex whitespace-pre-line text-center text-[12px] w-[20rem] md:w-[15rem] lg:w-fit md:text-[12px] lg:text-[20px] md:text-left mt-[10px]'>Hello welcome to my web prefile, and here I proud to present about my profile, activity, research, competition or etc. Enjoy with my profile </p>
           <div className="btn-wrapper flex mt-[60px] justify-center md:justify-start">
             <button className="btn bg-quaternary w-[150px] h-[50px] text-[17px] rounded-[10px] md:w-[170px] md:h-[56px] md:text-[20px] text-primary font-bold mr-[18px] active:bg-transparent active:text-quaternary active:border-quaternary active:border-2">Download CV</button>
